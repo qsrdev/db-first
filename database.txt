@@ -1,1 +1,23 @@
-prova
+id: UNSIGNED BIGINT - AUTO_INCREMENTE - UNIQUE - NOT NULL
+producer: VARCHAR(255) - NOT NULL
+car-name: VARCHAR(255) - NOT NULL
+car-model: VARCHAR(255) - NOT NULL
+car-description: MEDIUMTEXT -  NULL
+year: YEAR - NOT NULL
+engine: VARCHAR(255) - NOT NULL
+horsepower: UNSIGNED TINYINT - NULL
+cylinders: UNSIGNED TINYINT - NULL
+fuel-type: VARCHAR(255) - NOT NULL
+fuel-capacity: UNSIGNED SMALLINT - NULL
+traction-type: VARCHAR(255) - NULL
+gearbox-type: VARCHAR(255) - NOT NULL
+tire-size: UNSIGNED TINYINT - NULL
+length: UNSIGNED TINYINT - NULL
+width: UNSIGNED TINYINT - NULL
+height: UNSIGNED TINYINT - NULL
+weight: UNSIGNED MEDIUMINT - NULL
+fuel-economy (/100km): FLOAT(3,1) - NULL
+c02-emissions: FLOAT(3,1) - NULL
+price: UNSIGNED DECIMAL(10,2) - NOT NULL
+created_at: DATETIME - NOT NULL
+updated_at: DATETIME - NOT NULL
